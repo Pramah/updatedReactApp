@@ -6,7 +6,7 @@ class Landing extends Component {
         return (
             <div style = {{width : '100%', margin: 'auto'}}>
                 <Grid className= "landing-grid">
-                    <Cell col = {12}></Cell>
+                    <Cell col = {12}>
                     <img 
                     src="https://i.pinimg.com/originals/7f/79/6d/7f796d57218d9cd81a92d9e6e8e51ce4.png"
                     alt="avatar"
@@ -23,9 +23,20 @@ class Landing extends Component {
                             TypeScript |
                             MySQL
                         </p>
+                        <div className="social-links">
+                            {/* Linkedin Link */}
+                            <a href="https://www.linkedin.com/in/prasanna-b-9811bb158/" rel ="linkedin" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                            </a>
+                            {/* GitHub Link */}
+                            <a href="https://github.com/Pramah" rel ="github" target="_blank">
+                                <i className="fa fa-github-square" aria-hidden="true"/>
+                            </a>
+                        </div>
                     </div>
-                </Grid>          
-            </div>
+                </Cell>
+            </Grid>          
+        </div>
         )
     }
 }

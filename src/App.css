@@ -3,6 +3,19 @@
   background: -webkit-linear-gradient(to top, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
+  .landing-grid {
+    background: rgb(20, 19, 19);  /* fallback for old browsers */
+    background:-webkit-linear-gradient(to top, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .avatar-img {
     height: 250px;
     padding-top: 5em;
@@ -28,4 +41,16 @@
     color: whitesmoke;
     text-align: center;
 
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+  .social-links i{
+    font-size: 5em;
+    color: lightcyan;
+    padding: 8px;
   }

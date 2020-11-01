@@ -9,7 +9,7 @@ function App() {
       {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Title" scroll>
+          <Header className="header-color"title="Title" scroll>
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
