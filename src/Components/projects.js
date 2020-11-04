@@ -29,7 +29,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://github.com/Pramah/project-1/blob/master/assets/pictures/actor-search.gif?raw=true) center / cover'}} ></CardTitle>
             <CardText>
               Actor Search
             </CardText>
@@ -45,9 +45,9 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://raw.githubusercontent.com/fondofhats/workday-scheduler/master/workday-scheduler.png) center / cover'}} ></CardTitle>
             <CardText>
-            Read Me generator            
+            Calender Event          
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -78,7 +78,7 @@ class Projects extends Component {
                     onChange={(tabId) => this.setState({ activeTab:tabId})} ripple>
                     <Tab>Weather Dashboard</Tab>
                     <Tab>Actor Search</Tab>
-                    <Tab>ReadMe Generator</Tab> 
+                    <Tab>Calender Event</Tab> 
                 </Tabs>
 
                 <section className="projects-grid">
