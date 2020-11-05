@@ -27,7 +27,13 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 2 */}
+        </div>
+        )
+    } else if (this.state.activeTab === 1) {
+        return (
+            <div>
+              
+              {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://github.com/Pramah/project-1/blob/master/assets/pictures/actor-search.gif?raw=true) center / cover'}} ></CardTitle>
             <CardText>
@@ -42,7 +48,11 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+            </div>
+        )
+    } else if (this.state.activeTab === 2) {
+        return (
+          <div>          
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://raw.githubusercontent.com/fondofhats/workday-scheduler/master/workday-scheduler.png) center / cover'}} ></CardTitle>
@@ -58,15 +68,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
-        )
-    } else if (this.state.activeTab === 1) {
-        return (
-            <div><h1>Actor Search</h1></div>
-        )
-    } else if (this.state.activeTab === 2) {
-        return (
-            <div><h1>ReadMe Generator</h1></div>
+          </div>
         )
     }
 }
